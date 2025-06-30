@@ -1,0 +1,11 @@
+- This is the Next.js 15 project using React 19.
+- The project is using Tailwind CSS for styling.
+- The project is using Shadcn UI for components. Do everything in Shadcn whenever possible.
+
+
+- It's Next.js so use server components when possible
+- Use server actions when possible
+- Use Next.js 15 
+
+- If you generating validation schemas, forms, actions, working with db - THEN ALWAYS use the database schema from @/lib/db/schema. ts as A SINGLE SOURCE OF TRUTH
+- NEVER MODIFY OR REMOVE ANYTHING FROM THE SCHEMA. UNLESS I EXPLICITLY TELL YOU TO DO SO.
