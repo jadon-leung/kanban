@@ -77,7 +77,8 @@ export const assignees: Assignee[] = [
 ]
 
 // Helper functions
-export const getAssigneeById = (id: string): Assignee | undefined => {
+export const getAssigneeById = (id: string | null | undefined): Assignee | undefined => {
+  if (!id) return undefined
   return assignees.find(assignee => assignee.id === id)
 }
 
